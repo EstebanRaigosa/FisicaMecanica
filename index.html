@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ITM | Salto con Garrocha</title>
+    <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="image/x-icon" href="./Imagenes/vader.png">
+</head>
+
+<body>
+    <header class="header">
+        <figure class="header__img">
+            <img src="./Imagenes/LogoITM.png" alt="">
+        </figure>
+    </header>
+    <main class="login">
+        <section class="login__container">
+            <h2>Simulador Salto Con Garrocha</h2>
+            <form id="jumpForm" class="login__container--form" action="">
+                <label class="form_Label" for="speed">Velocidad (m/s):</label>
+                <input id="speed" class="input" type="number" step="0.01" required>
+                <label class="form_Label" for="speed">Masa (kg):</label>
+                <input id="mass" class="input" type="number" step="0.01" required>
+                <button type="submit" class="button">Calcular</button>
+
+            </form>
+            <div id="result"></div>
+            <section class="login__container--social-media">
+                <p>Integrantes:</p>
+                <figure>
+                    <img src="./Imagenes/play-icon.png" alt="">
+                    <span>Gabriela Rada Sudea </span>
+                </figure>
+                <figure>
+                    <img src="./Imagenes/play-icon.png" alt="">
+                    <span>Valentina Posada Valencia </span>
+                </figure>
+                <figure>
+                    <img src="./Imagenes/play-icon.png" alt="">
+                    <span>Esteban Raigosa Chancy </span>
+                </figure>
+            </section>            
+        </section>
+    </main>
+    <footer class="footer">
+        <a href="/"><figure>
+            <img src="./Imagenes/descargar.png" alt="">
+        </figure>Descargar proyecto</a>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
+
+
+
