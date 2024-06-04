@@ -186,7 +186,7 @@ body {
         width: 100%;
     }
     .footer {
-        align-items: flex-start;
+        align-items: center;
         flex-direction: column;
     }
 }
